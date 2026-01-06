@@ -1,0 +1,11 @@
+[project]
+name = "cifar-classifier"
+version = "0.1.0"
+dependencies = [
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+    "optuna>=4.0.0",
+    "pillow>=10.0.0",
+    "tqdm",
+]
+requires-python = ">=3.12"
